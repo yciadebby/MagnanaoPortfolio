@@ -1,0 +1,46 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Streamlit and Python caches
+.streamlit/cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+*~
